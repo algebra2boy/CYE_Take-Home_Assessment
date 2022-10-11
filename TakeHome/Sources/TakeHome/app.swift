@@ -64,7 +64,7 @@ public extension TakeHome {
     
     /// print out the page number and the score of a student, round it to hundredth places, and represent the score in percentage
     /// each page will be printed in the format of "Page <Page #>: <score in percentage>"
-    /// example : Page 931F46BD-F7BC-4357-BD35-B61840DDC5A3: 4.0945%
+    /// example : Page 1 : 4.0945%
     func printPageAndScore(answer: Answer) {
         // go through the pages and find the id of the page, and match it with the pageID belongs to that answer
         for page in self.example_book.pages {
